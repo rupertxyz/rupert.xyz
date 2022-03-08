@@ -1,6 +1,8 @@
 import * as React from 'react';
-import { container } from './wrapper.module.css';
+import { container, heroImage } from './wrapper.module.css';
 import { useStaticQuery, graphql } from 'gatsby';
+import Header from './header.js';
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 const Wrapper = () => {
@@ -17,13 +19,8 @@ const Wrapper = () => {
   
   return (
     <div className={container}>
-      <header>
-          <h1>{data.site.siteMetadata.author}</h1>
-          <ul>
-              <li>Icon1</li>
-              <li>Icon2</li>
-          </ul>
-      </header>
+      <Header data={data}></Header>
+      <StaticImage className={heroImage} src="../images/sunrise.jpg" alt="sunrise"></StaticImage>
     </div>
   )
 }

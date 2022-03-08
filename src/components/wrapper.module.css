@@ -1,10 +1,35 @@
-.container {
-    max-width: 1200px;
+body {
     display: flex;
     justify-content: center;
 }
 
+a {
+    color: initial;
+}
+
+.container {
+    margin: auto;
+}
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+header > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+header > ul > a {
+    margin-left: 1rem;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
 }
