@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Rupert Hoffschmidt | Blog`,
-    siteUrl: `https://www.rupert.xyz`
+    author: `Rupert Hoffschmidt`,
+    title: `First site`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    "gatsby-plugin-mdx", 
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 }

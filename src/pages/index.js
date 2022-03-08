@@ -3,7 +3,8 @@ import Wrapper from '../components/wrapper'
 
 const IndexPage = () => {
   return (
-    <Wrapper></Wrapper>
+    <Wrapper>
+    </Wrapper>
   )
 }
 
