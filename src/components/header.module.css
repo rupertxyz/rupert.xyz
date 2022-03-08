@@ -1,0 +1,28 @@
+.title-flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 1rem 0;
+}
+
+.title-flex-container > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.title-flex-container > ul > a {
+    margin-left: 1rem;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0 0 1rem 0;
+}
+
+.nav > ul > li {
+    margin-right: 2rem;
+}

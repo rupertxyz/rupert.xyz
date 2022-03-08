@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,27 +10,11 @@ body {
 
 a {
     color: initial;
+    text-decoration: none;
 }
 
 .container {
     margin: auto;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-header > ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}
-
-header > ul > a {
-    margin-left: 1rem;
 }
 
 .hero-image {
