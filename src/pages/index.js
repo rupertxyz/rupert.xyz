@@ -1,16 +1,9 @@
 import * as React from "react"
-import Header from '../components/Header'
-
-// styles
-// const pageStyles = {
-//   color: "#232129",
-//   padding: 96,
-//   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-// }
+import Wrapper from '../components/wrapper'
 
 const IndexPage = () => {
   return (
-    <Header></Header>
+    <Wrapper></Wrapper>
   )
 }
 
