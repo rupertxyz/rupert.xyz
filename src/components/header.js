@@ -21,6 +21,7 @@ const Header = ({data}) => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/">Articles</Link></li>
               <li><Link to="/airtable">Airtable</Link></li>
+              <li><Link to="/airtable">Projects</Link></li>
             </ul>
           </nav>
       </header>
