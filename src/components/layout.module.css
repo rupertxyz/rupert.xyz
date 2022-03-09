@@ -1,9 +1,21 @@
 .container {
-    width: 768px;
+    width: 950px;
     margin: auto;
 }
 
 .page-title-style {
     margin: 2rem 0;
     font-size: 3rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        width: 600px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 350px;
+    }
 }

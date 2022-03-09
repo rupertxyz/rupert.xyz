@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faMoon } from '@fortawesome/free-regular-svg-icons'
-import { titleFlexContainer, nav, titleFlexContainerLeft } from './header.module.css';
+import { titleFlexContainer, nav, titleFlexContainerLeft, siteTitle, navLink } from './header.module.css';
 import { Link } from 'gatsby';
 import kopfGif from '../images/kopf.gif'
 
@@ -13,7 +13,7 @@ const Header = ({data}) => {
           <div className={titleFlexContainer}>
             <div className={titleFlexContainerLeft}>
               <Link to="/"><img width={50} src={kopfGif}></img></Link>
-              <h1>{data.site.siteMetadata.author}</h1>
+              <h1 className={siteTitle}>{data.site.siteMetadata.author}</h1>
             </div>
             <ul>
                 <Link to="https://twitter.com/rupertxyz"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link>
@@ -22,9 +22,9 @@ const Header = ({data}) => {
           </div>
           <nav className={nav}>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/articles">Articles</Link></li>
-              <li><Link to="/airtable">Airtable</Link></li>
+              <li><Link className={navLink} to="/">Home</Link></li>
+              <li><Link className={navLink} to="/articles">Articles</Link></li>
+              <li><Link className={navLink} to="/airtable">Airtable</Link></li>
             </ul>
           </nav>
       </header>

@@ -33,3 +33,13 @@
 .nav > ul > li {
     margin-right: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .site-title {
+        font-size: 1.5rem;
+    }
+  }
+
+.nav-link:focus {
+    text-decoration: underline;
+}
