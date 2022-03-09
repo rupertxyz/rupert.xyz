@@ -12,7 +12,7 @@ const Header = ({data}) => {
           <div className={titleFlexContainer}>
             <h1>{data.site.siteMetadata.author}</h1>
             <ul>
-                <Link><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link>
+                <Link to="https://twitter.com/rupertxyz"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link>
                 <Link><FontAwesomeIcon icon={faMoon}></FontAwesomeIcon></Link>
             </ul>
           </div>
