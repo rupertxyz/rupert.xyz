@@ -1,6 +1,7 @@
 .title-flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 0 1rem 0;
 }
 
@@ -14,6 +15,12 @@
 
 .title-flex-container > ul > * {
     margin-left: 1rem;
+}
+
+.title-flex-container-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .nav > ul {
