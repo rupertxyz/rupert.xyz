@@ -18,7 +18,7 @@ const Layout = ({pageTitle, children}) => {
   return (
     <div className={container}>
       <Header data={data}></Header>
-      <h1 className={pageTitleStyle}>{pageTitle}</h1>
+      {pageTitle && <h1 className={pageTitleStyle}>{pageTitle}</h1>}
       {children}
     </div>
   )

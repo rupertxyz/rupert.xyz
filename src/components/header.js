@@ -8,10 +8,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Header = ({data}) => {
 
-  function clickHandler () {
-    console.log("hello")
-  }
-
   return (
       <header>
           <div className={titleFlexContainer}>
@@ -21,7 +17,7 @@ const Header = ({data}) => {
             </div>
             <ul>
                 <Link to="https://twitter.com/rupertxyz"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link>
-                <Link style={{cursor: "pointer"}}><FontAwesomeIcon onClick={clickHandler} icon={faMoon}></FontAwesomeIcon></Link>
+                {/* <Link style={{cursor: "pointer"}}><FontAwesomeIcon icon={faMoon}></FontAwesomeIcon></Link> */}
             </ul>
           </div>
           <nav className={nav}>
