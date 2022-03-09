@@ -1,10 +1,11 @@
 import * as React from "react"
-import Wrapper from '../components/wrapper'
+import Home from '../components/home'
 
 const IndexPage = () => {
-  return (
-    <Wrapper>
-    </Wrapper>
+  return (<>
+    <Home>
+    </Home>
+  </>
   )
 }
 

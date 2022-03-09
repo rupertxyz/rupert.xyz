@@ -12,16 +12,15 @@ const Header = ({data}) => {
           <div className={titleFlexContainer}>
             <h1>{data.site.siteMetadata.author}</h1>
             <ul>
-                <a href="https://twitter.com/rupertxyz"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a>
-                <a href="#"><FontAwesomeIcon icon={faMoon}></FontAwesomeIcon></a>
+                <Link><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link>
+                <Link><FontAwesomeIcon icon={faMoon}></FontAwesomeIcon></Link>
             </ul>
           </div>
           <nav className={nav}>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/">Articles</Link></li>
+              <li><Link to="/articles">Articles</Link></li>
               <li><Link to="/airtable">Airtable</Link></li>
-              <li><Link to="/airtable">Projects</Link></li>
             </ul>
           </nav>
       </header>

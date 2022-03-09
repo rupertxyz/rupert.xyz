@@ -1,10 +1,10 @@
 import * as React from "react"
-import Wrapper from '../components/wrapper'
+import Layout from '../components/layout'
 
 const Airtable = () => {
   return (
-    <Wrapper>
-    </Wrapper>
+    <Layout pageTitle="Airtable">
+    </Layout>
   )
 }
 

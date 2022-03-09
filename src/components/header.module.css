@@ -12,7 +12,7 @@
     font-size: 1.5rem;
 }
 
-.title-flex-container > ul > a {
+.title-flex-container > ul > * {
     margin-left: 1rem;
 }
 

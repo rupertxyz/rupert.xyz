@@ -9,5 +9,13 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-fontawesome-css",
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
+    `gatsby-plugin-mdx`,
   ],
 }
