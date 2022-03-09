@@ -39,7 +39,3 @@
         font-size: 1.5rem;
     }
   }
-
-.nav-link:focus {
-    text-decoration: underline;
-}

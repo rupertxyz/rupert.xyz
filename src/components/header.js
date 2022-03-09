@@ -1,8 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faMoon } from '@fortawesome/free-regular-svg-icons'
-import { titleFlexContainer, nav, titleFlexContainerLeft, siteTitle, navLink } from './header.module.css';
+import { titleFlexContainer, nav, titleFlexContainerLeft, siteTitle } from './header.module.css';
 import { Link } from 'gatsby';
 import kopfGif from '../images/kopf.gif'
 
@@ -12,7 +11,7 @@ const Header = ({data}) => {
       <header>
           <div className={titleFlexContainer}>
             <div className={titleFlexContainerLeft}>
-              <Link to="/"><img width={50} src={kopfGif}></img></Link>
+              <Link to="/"><img width={50} src={kopfGif} alt="Kopf als Gif"></img></Link>
               <h1 className={siteTitle}>{data.site.siteMetadata.author}</h1>
             </div>
             <ul>
@@ -22,9 +21,9 @@ const Header = ({data}) => {
           </div>
           <nav className={nav}>
             <ul>
-              <li><Link className={navLink} to="/">Home</Link></li>
-              <li><Link className={navLink} to="/articles">Articles</Link></li>
-              <li><Link className={navLink} to="/airtable">Airtable</Link></li>
+              <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/">Home</Link></li>
+              <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/articles">Articles</Link></li>
+              <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/airtable">Airtable</Link></li>
             </ul>
           </nav>
       </header>
