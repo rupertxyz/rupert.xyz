@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { titleFlexContainer, nav, titleFlexContainerLeft, siteTitle } from './header.module.css';
@@ -23,7 +23,7 @@ const Header = ({data}) => {
             <ul>
               <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/">Home</Link></li>
               <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/articles">Articles</Link></li>
-              <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/airtable">Airtable</Link></li>
+              {/* <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/airtable">Airtable</Link></li> */}
             </ul>
           </nav>
       </header>

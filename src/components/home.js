@@ -12,7 +12,7 @@ const Home = () => {
         <ul style={{fontSize: "1.3rem", lineHeight:"2rem"}}>
           <li>I like falling down rabbit holes and write <Link to="/articles">articles</Link> about it.</li>
           <li>I'm an entrepreneur who founded two companies in completely unrelated fields: <Link to="https://hy.co/">hy!</Link> and <Link to="https://roykombucha.com/">ROY</Link>.</li>
-          <li>I'm an Airtable (and aspiring software) developer, <Link to="/airtable">so please reach out to me if you need help.</Link></li>
+          <li>I'm a no- &amp; low-code developer (mostly Airtable), <a href="https://twitter.com/rupertxyz">so please send me a dm if you need help.</a></li>
           <li>Based in Berlin, Germany.</li>
         </ul>
     </Layout>

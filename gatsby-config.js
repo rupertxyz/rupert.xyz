@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    author: `Rupert Hoffschmidt`,
+    author: `Rupert Arnold Hoffschmidt-McDonnell`,
     title: `Rupert Hoffschmidt Blog`,
     siteUrl: `https://www.yourdomain.tld`,
   },
