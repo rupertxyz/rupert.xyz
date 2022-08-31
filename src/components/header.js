@@ -53,7 +53,7 @@ const Header = ({ data }) => {
               style={{ textDecoration: 'none' }}
               to="/faves"
             >
-              Internet's Faves
+              Internet Faves
             </Link>
           </li>
           {/* <li><Link activeStyle={{ fontWeight: "600"}} style={{ textDecoration: "none" }} to="/airtable">Airtable</Link></li> */}
