@@ -29,7 +29,10 @@ const Home = () => {
           Random thoughts on life, work and things in between:{' '}
           <Link to="/articles">Articles</Link>.
         </li>
-        <li>Based in Berlin, Germany.</li>
+        <li>
+          Based in Berlin, Germany. Married to{' '}
+          <Link to="https://www.emilylouisemcdonnell.com/">Emily</Link>.
+        </li>
       </ul>
     </Layout>
   );
