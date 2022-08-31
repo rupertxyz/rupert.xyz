@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { container, pageTitleStyle } from './layout.module.css';
+import { container } from './layout.module.css';
 import { useStaticQuery, graphql } from 'gatsby';
 import Header from './header.js';
 
-const Layout = ({pageTitle, children}) => {
+const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -13,15 +13,15 @@ const Layout = ({pageTitle, children}) => {
         }
       }
     }
-  `)
-  
+  `);
+
   return (
     <div className={container}>
       <Header data={data}></Header>
       {/* {pageTitle && <h1 className={pageTitleStyle}>{pageTitle}</h1>} */}
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

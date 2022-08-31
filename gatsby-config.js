@@ -5,9 +5,9 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-fontawesome-css",
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-fontawesome-css',
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -18,4 +18,4 @@ module.exports = {
     },
     `gatsby-plugin-mdx`,
   ],
-}
+};
