@@ -13,14 +13,22 @@ const Home = () => {
         alt="sunrise"
       ></StaticImage>
       <h1>Me in 10 Seconds</h1>
-      <ul style={{ fontSize: '1.3rem', lineHeight: '2rem' }}>
+      <ul
+        style={{
+          fontSize: '1.3rem',
+          lineHeight: '2rem',
+          listStyleType: 'disc',
+          textIndent: '-1.35em',
+          paddingLeft: '1.35em',
+        }}
+      >
         <li>
           Entrepreneur who founded two companies in completely unrelated fields:{' '}
           <Link to="https://hy.co/">hy!</Link> and{' '}
           <Link to="https://roykombucha.com/">ROY</Link>.
         </li>
         <li>
-          No- &amp; low-code developer (mostly Airtable).{' '}
+          Developing internal tools & automated systems (mostly with Airtable).{' '}
           <a href="https://twitter.com/rupertxyz">
             Please send a dm if you need help.
           </a>
