@@ -1,34 +1,59 @@
-import * as React from 'react'
-import { graphql, Link } from 'gatsby'
-import Layout from '../../components/layout'
+import * as React from 'react';
+import { graphql, Link } from 'gatsby';
+import Layout from '../../components/layout';
 
-const Articles = ({data}) => {
+const Articles = ({ data }) => {
   return (
     <Layout pageTitle="Articles">
-      {
-        data.allMdx.nodes.map((node) => (
-          <article key={node.id}>
-            <h2><Link to={`/articles/${node.slug}`}>{node.frontmatter.title}</Link></h2>
-            <p>Posted: {node.frontmatter.date}</p>
-          </article>
-        ))
-      }
+      {data.allMarkdownRemark.edges.map((el) => (
+        <article key={el.node.id}>
+          <h2>
+            <Link to={el.node.frontmatter.slug}>
+              {el.node.frontmatter.title}
+            </Link>
+          </h2>
+          <p>Posted: {el.node.frontmatter.date}</p>
+        </article>
+      ))}
     </Layout>
-  )
-}
+  );
+};
+
+// export const query = graphql`
+//   query {
+//     allMdx(
+//       sort: {
+//         fields: [frontmatter___date, frontmatter___title]
+//         order: [DESC, ASC]
+//       }
+//     ) {
+//       nodes {
+//         frontmatter {
+//           title
+//           date(formatString: "DD.MM.YYYY")
+//         }
+//         id
+//         slug
+//       }
+//     }
+//   }
+// `;
 
 export const query = graphql`
-    query {
-        allMdx(sort: {fields: [frontmatter___date, frontmatter___title], order: [DESC, ASC]}) {
-            nodes {
-              frontmatter {
-                title
-                date(formatString: "DD.MM.YYYY")
-              }
-              id
-              slug
-            }
+  {
+    allMarkdownRemark(sort: { fields: frontmatter___title, order: ASC }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date
+            slug
           }
-    }`
+        }
+      }
+    }
+  }
+`;
 
-export default Articles
+export default Articles;
