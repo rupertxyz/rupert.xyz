@@ -10,6 +10,7 @@ export default function Template({
   return (
     <Layout pageTitle={frontmatter.title}>
       <p>{frontmatter.date}</p>
+      <p>Category: {frontmatter.category}</p>
       <h1>{frontmatter.title}</h1>
       <article style={{ marginTop: '2rem' }}>
         <div
@@ -29,6 +30,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        category
       }
     }
   }

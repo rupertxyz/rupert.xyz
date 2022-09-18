@@ -21,10 +21,9 @@ const Header = ({ data }) => {
           <h1 className={siteTitle}>{data.site.siteMetadata.author}</h1>
         </div>
         <ul>
-          <Link to="https://twitter.com/rupertxyz">
+          <a href="https://twitter.com/rupertxyz">
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-          </Link>
-          {/* <Link style={{cursor: "pointer"}}><FontAwesomeIcon icon={faMoon}></FontAwesomeIcon></Link> */}
+          </a>
         </ul>
       </div>
       <nav className={nav}>

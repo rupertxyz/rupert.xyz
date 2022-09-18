@@ -2,6 +2,7 @@
 slug: '/vong-sprache-her'
 title: 'Vong Sprache her: Der Amazon, die Rewe, ein Google [GERMAN]'
 date: '2017-07-01'
+category: 'Language'
 ---
 
 Es ist nichts Neues, dass sich Gruppen durch ihre Sprache abgrenzen und zu erkennen geben. Beim Golf und Segeln, im Hip Hop und Jazz, bei Banken und Versicherungen: Überall spricht man einen individuellen Slang, den es gekonnt einzusetzen gilt und durch den Menschen die Zugehörigkeit zu einer Gemeinschaft ausdrücken.

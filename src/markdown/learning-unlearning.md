@@ -2,6 +2,7 @@
 slug: '/learning-unlearning'
 title: 'Learning and unlearning'
 date: '2022-03-12'
+category: 'Philosophy'
 ---
 
 Every day we learn and unlearn — unconsciously, without taking notice.

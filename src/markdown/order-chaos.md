@@ -2,6 +2,7 @@
 slug: '/order-chaos'
 title: 'Order and chaos'
 date: '2022-09-18'
+category: 'Philosophy'
 ---
 
 The other day I was on a long-haul flight to the US and before take-off, the pilot started his welcoming comments by saying “thanks for the coffee” to the rest of the crew. For some reason it made me think about order and chaos (sitting on a plane with few distractions is a good breeding ground for deeper chains of thoughts anyways).

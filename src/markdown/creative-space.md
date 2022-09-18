@@ -2,6 +2,7 @@
 slug: '/creative-space'
 title: 'Creative Space'
 date: '2022-08-11'
+category: 'Creativity'
 ---
 
 How does creativity emerge?
