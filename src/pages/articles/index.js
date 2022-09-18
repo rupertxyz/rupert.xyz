@@ -41,7 +41,9 @@ const Articles = ({ data }) => {
 
 export const query = graphql`
   {
-    allMarkdownRemark(sort: { fields: frontmatter___title, order: ASC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date, frontmatter___title], order: DESC }
+    ) {
       edges {
         node {
           id
