@@ -34,7 +34,7 @@ const Articles = ({ data }) => {
           ))}
         </div>
 
-        {category === 'ALL'
+        {category === 'All'
           ? data.allMarkdownRemark.edges.map((el) => (
               <article key={el.node.id}>
                 <h2>
