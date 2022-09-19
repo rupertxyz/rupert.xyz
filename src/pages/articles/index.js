@@ -4,7 +4,7 @@ import Layout from '../../components/layout';
 import { categoryButton } from './index.module.css';
 
 const Articles = ({ data }) => {
-  const [category, setCategory] = useState('ALL');
+  const [category, setCategory] = useState('All');
 
   const handleClick = (event) => {
     setCategory(event.target.innerHTML);
