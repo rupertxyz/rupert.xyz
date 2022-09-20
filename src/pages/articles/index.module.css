@@ -6,10 +6,12 @@
   background-color: white;
   cursor: pointer;
   border: 0;
+  background-color: transparent;
 }
 
 .category-button:focus {
   text-decoration-line: underline;
   text-underline-offset: 5px;
   text-decoration-thickness: 3px;
+  outline: none;
 }
