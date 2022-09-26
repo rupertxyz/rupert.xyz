@@ -20,6 +20,16 @@ const Faves = ({ data }) => {
           How to draw an owl
         </Link>
       </h2>
+      <h2>
+        <Link to="https://sive.rs/multiply">
+          Ideas are just a multiplier of execution
+        </Link>
+      </h2>
+      <h2>
+        <Link to="https://waitbutwhy.com/2015/12/the-tail-end.html">
+          The Tail End
+        </Link>
+      </h2>
     </Layout>
   );
 };
