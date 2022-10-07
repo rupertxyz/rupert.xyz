@@ -30,6 +30,11 @@ const Faves = ({ data }) => {
           The Tail End
         </Link>
       </h2>
+      <h2>
+        <Link to="https://www.icanw.org/dealing_with_nuclear_anxiety">
+          Dealing with Nuclear Anxiety
+        </Link>
+      </h2>
     </Layout>
   );
 };
