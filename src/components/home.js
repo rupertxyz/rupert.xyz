@@ -27,6 +27,7 @@ const Home = () => {
           <Link target="_blank" to="https://docsautomator.co">
             DocsAutomator
           </Link>
+          .
         </li>
         <li>
           Previously founded two companies in completely unrelated fields:{' '}
