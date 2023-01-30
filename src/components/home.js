@@ -23,9 +23,21 @@ const Home = () => {
         }}
       >
         <li>
-          Entrepreneur who founded two companies in completely unrelated fields:{' '}
-          <Link to="https://hy.co/">hy!</Link> and{' '}
-          <Link to="https://roykombucha.com/">ROY</Link>.
+          Indie hacker building a document automation tool in public:{' '}
+          <Link target="_blank" to="https://docsautomator.co">
+            DocsAutomator
+          </Link>
+        </li>
+        <li>
+          Previously founded two companies in completely unrelated fields:{' '}
+          <Link target="_blank" to="https://hy.co/">
+            hy!
+          </Link>{' '}
+          and{' '}
+          <Link target="_blank" to="https://roykombucha.com/">
+            ROY
+          </Link>
+          .
         </li>
         <li>
           Developing internal tools & automated systems (mostly with Airtable).{' '}
