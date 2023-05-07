@@ -2,9 +2,17 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../../components/layout';
 
-const Faves = ({ data }) => {
+const Faves = () => {
   return (
     <Layout pageTitle="Faves">
+      <h2>
+        <Link to="https://kk.org/thetechnium/1000-true-fans/">
+          1,000 True Fans
+        </Link>
+      </h2>
+      <h2>
+        <Link to="https://sive.rs/hellyeah">Hell Yeah or No</Link>
+      </h2>
       <h2>
         <Link to="http://www.paulgraham.com/articles.html">
           Paul Graham's essays
