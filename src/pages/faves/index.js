@@ -38,6 +38,9 @@ const Faves = () => {
           The Tail End
         </Link>
       </h2>
+      <h2>
+        <Link to="https://sive.rs/relax">Relax for the same result</Link>
+      </h2>
     </Layout>
   );
 };
