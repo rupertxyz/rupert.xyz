@@ -5,7 +5,7 @@ date: '2024-02-01'
 category: 'Projects'
 ---
 
-<i>In case you don't know what DocsAutomator is: [DocsAutomator](https://docsautomator.co)</i>
+<i>In case you don't know what DocsAutomator is: [docsautomator.co](https://docsautomator.co)</i>
 
 <br />
 
