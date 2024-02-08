@@ -29,6 +29,7 @@
     "gatsby": "^4.9.2",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-image": "^2.9.0",
+    "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-mdx": "^3.9.0",
     "gatsby-plugin-sharp": "^4.9.0",
     "gatsby-remark-images": "^6.23.0",

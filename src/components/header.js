@@ -1,6 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  faTwitter,
+  faYoutube,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import {
   titleFlexContainer,
   nav,
@@ -9,6 +13,7 @@ import {
 } from './header.module.css';
 import { Link } from 'gatsby';
 import kopfGif from '../images/kopf.gif';
+import kopf2 from '../images/kopf2.png';
 
 const Header = ({ data }) => {
   return (
@@ -16,13 +21,19 @@ const Header = ({ data }) => {
       <div className={titleFlexContainer}>
         <div className={titleFlexContainerLeft}>
           <Link to="/">
-            <img width={50} src={kopfGif} alt="Kopf als Gif"></img>
+            <img width={100} src={kopf2} alt="Kopf als Gif"></img>
           </Link>
           <h1 className={siteTitle}>{data.site.siteMetadata.author}</h1>
         </div>
         <ul>
           <a href="https://twitter.com/rupertxyz">
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+          </a>
+          <a href="https://www.youtube.com/channel/UCPoiZBRqSbPfRPv01Oy6O5g">
+            <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
+          </a>
+          <a href="https://www.linkedin.com/in/ruphoffschmidt/">
+            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
           </a>
         </ul>
       </div>

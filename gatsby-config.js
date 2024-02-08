@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    author: `Rupert Arnold Hoffschmidt-McDonnell`,
+    author: `Rupert Hoffschmidt-McDonnell`,
     title: `Rupert Hoffschmidt Blog`,
     siteUrl: `https://www.rupert.xyz`,
   },
@@ -14,6 +14,18 @@ module.exports = {
       options: {
         name: `markdown`,
         path: `${__dirname}/src/markdown`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Rupert Hoffschmidt-McDonnell`,
+        short_name: `Rupert`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/kopf2.png`,
       },
     },
     {

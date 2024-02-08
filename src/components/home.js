@@ -23,11 +23,25 @@ const Home = () => {
         }}
       >
         <li>
-          Indie hacker building a document automation tool in public:{' '}
+          SaaS founder building a No-Code document automation tool in public:{' '}
           <Link target="_blank" to="https://docsautomator.co">
             DocsAutomator
           </Link>
           .
+        </li>
+        <li>
+          Follow for No-Code and AI learnings + my SaaS journey:{' '}
+          <a
+            target="_blank"
+            href="https://www.youtube.com/channel/UCPoiZBRqSbPfRPv01Oy6O5g"
+          >
+            YouTube
+          </a>
+          ,{' '}
+          <a target="_blank" href="https://airletter.substack.com/">
+            Newsletter
+          </a>
+          , <a href="https://twitter.com/rupertxyz">Twitter</a>.
         </li>
         <li>
           Previously founded two companies in completely unrelated fields:{' '}
@@ -36,18 +50,12 @@ const Home = () => {
           </Link>{' '}
           and{' '}
           <Link target="_blank" to="https://roykombucha.com/">
-            ROY
+            ROY Kombucha
           </Link>
           .
         </li>
         <li>
-          Developing internal tools & automated systems (mostly with Airtable).{' '}
-          <a href="https://twitter.com/rupertxyz">
-            Please send a dm if you need help.
-          </a>
-        </li>
-        <li>
-          Random thoughts on life, work and things in between:{' '}
+          Thoughts on life, work and things in between:{' '}
           <Link to="/articles">Articles</Link>.
         </li>
         <li>
